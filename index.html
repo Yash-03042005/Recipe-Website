@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe-Website</title>
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      background-color: antiquewhite;
+    }
+
+    .container{
+
+      max-width:600px;
+      width: 100%;
+      background-color: #fff;
+      margin: auto;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0  0 10px rgba(0,0,0,.1);
+
+    }
+
+    #image{
+      border-radius: 7px;
+      margin-bottom: 25px;
+    }
+
+    .p-first{
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    h1{
+      margin-bottom: 15px;
+      font-size: 45px;
+    }
+
+    .first{
+      background-color: rgba(250, 202, 210, 0.5);
+      padding:18px;
+      border-radius: 7px;
+      margin-bottom: 20px;
+    }
+
+    .title{
+      color: rgb(167, 7, 7);
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .list1{
+      margin-left: 35px;
+      line-height: 25px;
+    }
+
+    .title-ingredients{
+      font-size: 30px;
+      color: rgb(167, 7, 7);
+      margin-bottom: 10px;
+    }
+
+    .list2{
+      margin-left: 35px;
+      line-height: 25px;
+
+    }
+
+    .ingredients{
+      margin-bottom: 20px;
+    }
+
+    .title-instructions{
+      font-size: 30px;
+      color: rgb(167, 7, 7);
+      margin-bottom: 10px;
+    }
+
+    .list3{
+      margin-left: 35px;
+      line-height: 25px;
+    }
+
+    .title-nutrition{
+
+      font-size: 30px;
+      color: rgb(167, 7, 7);
+      margin-bottom: 10px;
+    }
+
+    .row1, .row2,.row3,.row4{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+
+  </style>
+</head>
+<body>
+   
+   <div class="container">
+     
+    <img src="./assets/images/image-omelette.jpeg" alt="omlete_image" id="image">
+
+    <h1>Simple Omelette Recipe</h1>
+
+    <p class="p-first">An easy quick dish,perfect for any meal.This classic omlette combines beaten eggs cooked to perfections,optionally filled with your choice of chese,vegetables,or meats.</p>
+
+    <div class="first">
+
+      <p class="title"><b>Preparation Time</b></p>
+      <div class="list1">
+        <ul>
+          <li><b>Total</b>: Approximately 10 minutes</li>
+          <li><b>Preparation</b>: 5 minutes</li>
+          <li><b>Cooking</b>: 5 minutes</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ingredients">
+      <p class="title-ingredients"><b>Ingredients</b></p>
+      <div class="list2">
+        <ul>
+          <li>2-3 large Eggs</li>
+          <li>salt,to taste</li>
+          <li>pepper to taste</li>
+          <li>1 tablespoon of butter or oil</li>
+          <li>Optional fillings:cheese,diced vegetables,cooked meats,herbs</li>
+        </ul>
+      </div>
+       
+      <hr style="margin-top:30px; margin-bottom: 30px;">
+
+      <div class="instructions">
+        <p class="title-instructions"><b>Instructions</b></p>
+        <div class="list3">
+          <ol>
+            <li><b>Beat The Eggs</b>: In a bowl,beat the eggs with a pinch salt pepper until they are well mixed.you can add tablespoon of wateror milk for fluffier texture.</li>
+
+            <li><b>Heat the Pan</b>: Place the non-stick frying pan over medium heat and add butter or oil.</li>
+
+            <li><b>Cook the Omelette</b>: Once the butter is melted and bubbling poor in the eggs. Tilt the pan to ensure the egg evenly coat the surface </li>
+
+            <li><b>Add fillings(optional)</b>:When the egg begins to set at the edges but are still slightly runny in the middle , sprinkle your chosen fillings over one half of the omelete</li>
+
+            <li><b>Fold and serve</b>:as the omelette continues to cook ,carefully lift one edge and fold it over the fillings .letit cook for another minute,then slide it onto a plate</li>
+
+            <li><b>Enjoy</b>: serve hot,with additional salt and pepper if needed</li>
+          </ol>
+        </div>
+
+        <hr style="margin-top:30px; margin-bottom: 30px;">
+
+        <div class="nutrition">
+          <p class="title-nutrition"><b>Nutrition</b></p>
+
+          <p style="margin-bottom: 20px;">The table below shows nutritional values per serving without the additional fillings.</p>
+
+          <div class="row1">
+
+            <span>Calories</span>
+            <span>127kcal</span>
+
+          </div>
+
+          <hr style="margin-top:15px; margin-bottom: 15px;">
+
+          <div class="row2">
+
+            <span>Carbs</span>
+            <span>0g</span>
+
+          </div>
+
+          <hr style="margin-top:15px; margin-bottom: 15px;">
+
+          <div class="row3">
+
+            <span>Protein</span>
+            <span>20g</span>
+
+          </div>
+
+          <hr style="margin-top:15px; margin-bottom: 15px;">
+
+          <div class="row4">
+
+            <span>fat</span>
+            <span>22g</span>
+
+          </div>
+
+        </div>
+
+    </div>
+
+   </div>
+</body>
+</html>
